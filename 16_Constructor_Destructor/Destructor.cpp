@@ -15,7 +15,7 @@ public:
         age = myage;
     }
 
-    void ShowPersonInfo() const\
+    void ShowPersonInfo() const
     {
         std::cout << "이름 : " << name << std::endl;
         std::cout << "나이 : " << age << std::endl;
