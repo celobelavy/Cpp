@@ -37,7 +37,7 @@ public:
 		strcpy(cusName, ref.cusName);
 	}
 
-	int GetAccID() { return accID; }
+	int GetAccID() const { return accID; }
 
 	void Desposit(int money)
 	{
@@ -53,7 +53,7 @@ public:
 		return money;
 	}
 
-	void ShowAccInfo()
+	void ShowAccInfo() const
 	{
 		std::cout << "계좌 ID : " << accID << std::endl;
 		std::cout << "이 름 : " << cusName << std::endl;
